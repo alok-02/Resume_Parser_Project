@@ -1,0 +1,124 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.4.3,<3.5.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"63673a792",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "College Name",
+      "Companies Worked At",
+      "Companies worked at",
+      "Degree",
+      "Designation",
+      "Email Address",
+      "Graduation Year",
+      "Location",
+      "Name",
+      "SKills",
+      "Skills",
+      "UNKNOWN",
+      "Years of Experience"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.9261349693,
+    "ents_p":0.9416167665,
+    "ents_r":0.9111540319,
+    "ents_per_type":{
+      "Name":{
+        "p":0.9888059701,
+        "r":0.9888059701,
+        "f":0.9888059701
+      },
+      "Designation":{
+        "p":0.9612244898,
+        "r":0.9534412955,
+        "f":0.9573170732
+      },
+      "Companies worked at":{
+        "p":0.8563380282,
+        "r":0.9074626866,
+        "f":0.8811594203
+      },
+      "Location":{
+        "p":0.9719101124,
+        "r":0.8377723971,
+        "f":0.899869961
+      },
+      "Email Address":{
+        "p":0.990521327,
+        "r":0.9372197309,
+        "f":0.9631336406
+      },
+      "College Name":{
+        "p":0.9734848485,
+        "r":0.8954703833,
+        "f":0.9328493648
+      },
+      "Graduation Year":{
+        "p":0.9527896996,
+        "r":0.9406779661,
+        "f":0.9466950959
+      },
+      "Skills":{
+        "p":0.9568965517,
+        "r":0.8987854251,
+        "f":0.9269311065
+      },
+      "Degree":{
+        "p":0.8941605839,
+        "r":0.9074074074,
+        "f":0.9007352941
+      },
+      "SKills":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "Years of Experience":{
+        "p":1.0,
+        "r":0.9285714286,
+        "f":0.962962963
+      },
+      "UNKNOWN":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Companies Worked At":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "tok2vec_loss":1664.6136537402,
+    "ner_loss":1217.974750097
+  }
+}
